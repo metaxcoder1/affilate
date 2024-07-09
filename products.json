@@ -9,6 +9,6 @@
         "title": "Product 2",
         "description": "Description of product 2.",
         "image": "/images/uploads/product2.jpg",
-        "link": "https://example.com/product2"
+        "link": "https://example.com/product2"   
     }
 ]
