@@ -8,12 +8,14 @@ public_folder: "/images/uploads"
 collections:
   - name: "products"
     label: "Products"
-    files:
-      - label: "Products"
-        name: "products"
-        file: "products.json"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Link", name: "link", widget: "string" }
+    file: "products.json"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Link", name: "link", widget: "string" }
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
